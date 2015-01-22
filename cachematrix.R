@@ -23,7 +23,7 @@ makeCacheMatrix <- function(x = matrix()) {
     
     cachedInverse <- NULL
     
-    # update the matrix 'x'
+    # update the matrix 'x' (which we might want to invert)
     set <- function(y) {
         # Note: 'x' is already a variable in the parent environment; it is
         # the variable passed to 'makeCacheMatrix'. The <<- operation
